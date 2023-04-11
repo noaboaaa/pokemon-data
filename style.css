@@ -1,0 +1,138 @@
+/* Define the font family and weight to be used for all text on the page */
+body {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  margin-bottom: 60px; /* Height of the footer */
+  background-color: black;
+}
+
+
+/* Style the header element */
+header {
+  background-color: blue;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+/* Style the main content area */
+main {
+  margin: 30px;
+}
+
+h2 {
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
+
+p {
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
+/* Style the footer element and position it at the bottom of the page */
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  top: 130px;
+}
+
+/* Style the grid container and items */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 1fr;
+  grid-gap: 20px;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.grid-item {
+  background-color: #ffffff;
+  border: 1px solid #4e4d4da5;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px rgba(240, 73, 156, 0.227);
+  cursor: pointer;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+
+.grid-item:hover {
+  box-shadow: 0 8px 12px rgba(20, 145, 240, 0.237);
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the dialog box */
+.dialog {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 20px;
+  position: relative;
+  top: 20%;
+}
+
+/* headings and images within the dialog box */
+.dialog h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.dialog h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.dialog img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Style the list items within the dialog box */
+.dialog li {
+  margin-left: 20px;
+}
+
+/* Style the close button within the dialog box */
+#close-btn {
+  position: absolute;
+  background-color: #ddd;
+  color: #666666;
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* Increase the background color of the close button when hovered over */
+#close-btn:hover {
+  background-color: #bbb;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Oddish",
+  "description": "If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds.",
+  "ability": "Chlorophyll",
+  "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png",
+  "footprint": null,
+  "dexindex": 43,
+  "type": "Grass",
+  "subtype": "Poison",
+  "weaknesses": "Fire",
+  "gender": "male/female",
+  "weight": 11.9,
+  "height": 50.8,
+  "generation": 1,
+  "spilversion": "Red, Blue",
+  "canEvolve": false,
+  "statsHP": 3,
+  "statsAttack": 3,
+  "statsDefence": 4,
+  "statsSpecialAttack": 5,
+  "statsSpecialDefence": 4,
+  "statsSpeed": 3
+}
